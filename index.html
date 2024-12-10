@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test technique</title>
+</head>
+
+<body>
+  <h1>Test technique</h1>
+  <form action="" method="get">
+
+  <p><em>Tous les champs sont obligatoires</em></p> 
+<br>
+    <label for="prenom">Prénom : </label>
+    <input type="text" name="prenom" id="prenom" required>
+<br>
+    <label for="nom">Nom : </label>
+    <input type="text" name="nom" id="nom" required>
+<br>
+    <label for="age">Age : </label>
+    <input type="number" name="age" id="age" min="18" max="99" required>
+<br>
+    <label for="sexe">Sexe : </label>
+          <select id="sexe" name="sexe" required>
+            <option value="">--Sélectionnez une option--</option>
+            <option>Féminin</option>
+            <option>Masculin</option>
+            <option>Ne souhaite pas se prononcer</option>
+          </select>
+   <br>
+    <label for="email">Adresse mail : </label>
+    <input type="email" name="email" id="email" required>
+<br>
+  <label for="adressePostale">Adresse postale : </label>
+  <textarea name="adressePostale" id="adressePostale"></textarea>
+<br>
+<label for="codePostal">Code postal : </label>
+<input type="number" name="codePostal" id="codePostal" required>
+<br>
+  <label for="ville">Ville : </label>
+  <input type="text" name="ville" id="ville" required>
+  <br>
+  <label for="metiers">Métier exercé : </label>
+<select id="metiers" name="metiers" required>
+<option value="">--Sélectionnez un métier--</option>
+<option value="developpeur">Développeur</option>
+<option value="medecin">Médecin</option>
+<option value="enseignant">Enseignant</option>
+<option value="ingenieur">Ingénieur</option>
+<option value="avocat">Avocat</option>
+<option value="infirmier">Infirmier</option>
+<option value="comptable">Comptable</option>
+<option value="architecte">Architecte</option>
+<option value="designer">Designer</option>
+<option value="chef_cuisinier">Chef cuisinier</option>
+<option value="journaliste">Journaliste</option>
+<option value="policier">Policier</option>
+<option value="pompier">Pompier</option>
+<option value="pilote">Pilote</option>
+<option value="photographe">Photographe</option>
+</select>
+<br>
+<label for="nationalites">Choisissez une nationalité : </label>
+<select id="nationalites" name="nationalites" required>
+    <option value="">--Sélectionnez une nationalité--</option>
+    <option value="francaise">Française</option>
+    <option value="belge">Belge</option>
+    <option value="suisse">Suisse</option>
+    <option value="canadienne">Canadienne</option>
+    <option value="allemande">Allemande</option>
+    <option value="italienne">Italienne</option>
+    <option value="espagnole">Espagnole</option>
+    <option value="portugaise">Portugaise</option>
+    <option value="anglaise">Anglaise</option>
+    <option value="americane">Américaine</option>
+    <option value="australienne">Australienne</option>
+    <option value="neerlandaise">Néerlandaise</option>
+    <option value="suedoise">Suédoise</option>
+    <option value="norvegienne">Norvégienne</option>
+    <option value="russe">Russe</option>
+</select>
+<br>
+<label for="dateDeNaissance">Date de naissance : </label>
+<input type="date" name="dateDeNaissance" id="dateDeNaissance" required>
+<br>
+<label for="pays">Pays de naissnace : </label>
+<select id="pays" name="pays" required>
+    <option value="">--Sélectionnez un pays--</option>
+    <option value="afghanistan">Afghanistan</option>
+    <option value="afrique_du_sud">Afrique du Sud</option>
+    <option value="antigua_et_barbuda">Antigua-et-Barbuda</option>
+    <option value="arabie_saoudite">Arabie Saoudite</option>
+    <option value="argentine">Argentine</option>
+    <option value="armenie">Arménie</option>
+    <option value="australie">Australie</option>
+    <option value="autriche">Autriche</option>
+    <option value="azerbaidjan">Azerbaïdjan</option>
+    <option value="bahamas">Bahamas</option>
+    <option value="bahrein">Bahreïn</option>
+    <option value="cote_divoire">Côte d'Ivoire</option>
+    <option value="croatie">Croatie</option>
+    <option value="cuba">Cuba</option>
+    <option value="zambie">Zambie</option>
+    <option value="zimbabwe">Zimbabwe</option>
+</select>
+<br>
+<label for="numDeSécuriteSocial">Numéro de sécurité social : </label>
+<input type="text" name="numDeSécuriteSocial" id="numDeSécuriteSocial" pattern="[0-9]{13}" required>
+<br>
+<label for="numDePasseport">Numéro de passeport : </label>
+<input type="text" name="numDePasseport" id="numDePasseport" required>
+<br>
+<label for="dateDeDelivrancePasseport">Date de délivrance du passeport : </label>
+<input type="date" name="dateDeDelivrancePasseport" id="dateDeDelivrancePasseport" required>
+<br>
+<label for="dateDeValiditeDePasseport">Date de fin de validité de passeport : </label>
+<input type="date" name="dateDeValiditeDePasseport" id="dateDeValiditeDePasseport" required>
+<p>
+<button type="submit">Envoyer !</button>
+</p>
+</form>
+</body>
+</html>
